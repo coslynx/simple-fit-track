@@ -1,0 +1,10 @@
+{
+  "install_dependencies": "npm install",
+  "dev": "npm run dev",
+  "build": "npm run build",
+  "start": "npm run start",
+  "setup_env": "cp .env.example .env",
+  "start_frontend": "npm run dev",
+  "health_check": "curl http://localhost:3000/api/health",
+  "cleanup": "pkill -f 'node -e' && pkill -f 'npm run dev'"
+}
