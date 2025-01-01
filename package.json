@@ -1,0 +1,34 @@
+{
+  "name": "fitness-tracker-mvp",
+  "version": "1.0.0",
+  "description": "A fitness tracker web application MVP",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "vite --port 5173",
+    "build": "vite build --outDir dist",
+    "start": "vite preview --port 5000 --distPath dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://placeholder.git"
+  },
+  "keywords": ["fitness", "tracker", "web", "application"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-router-dom": "7.1.1",
+    "axios": "1.7.9",
+    "zod": "3.24.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17",
+    "vite": "5.2.9"
+  },
+   "engines": {
+    "npm": ">=8.0.0",
+      "node": ">=18.0.0"
+  },
+  "packageManager": "npm"
+}
